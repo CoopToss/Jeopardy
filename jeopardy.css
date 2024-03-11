@@ -1,0 +1,76 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #02d9ff;
+  color: #72069c;
+  text-align: center;
+  font-size: 24px;
+}
+
+#jeopardy {
+  margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+#jeopardy th,
+#jeopardy td {
+  border: 1px solid #000;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#jeopardy th {
+  background-color: #72069c;
+  color: #fff;
+}
+
+#jeopardy td {
+  background-color: #f5f5f5;
+  color: #000000;
+}
+
+#jeopardy td:hover {
+  background-color: #72069c;
+}
+
+#spinner {
+  display: none;
+  margin: auto;
+}
+
+#start {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#start:hover {
+  background-color: #218838;
+}
+
+#restart {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 30px;
+  background-color: #dc3545; /* Changed color to red */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#restart:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
